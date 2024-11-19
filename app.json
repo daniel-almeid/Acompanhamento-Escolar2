@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Acompanhamento-Escolar",
+    "slug": "Acompanhamento-Escolar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-escola.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#31BEF3"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#31BEF3"
+      },
+      "package": "com.anonymous.AcompanhamentoEscolar"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font"],
+    "newArchEnabled": true
+  }
+}
+
