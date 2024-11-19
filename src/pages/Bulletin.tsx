@@ -21,7 +21,7 @@ const BulletinTable: React.FC = () => {
 
     const addSubject = () => {
         if (newSubject.trim() === '' || newGrade.trim() === '') {
-            Alert.alert('Erro', 'Por favor, preencha todos os campos.');
+            Alert.alert('Erro', 'Por favor, preencha todos os campos...');
             return;
         }
 

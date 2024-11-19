@@ -1,50 +1,111 @@
-# Welcome to your Expo app 👋
+# Acompanhamento Escolar
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Este projeto ainda está em andamento.**
 
-## Get started
+📚 **Acompanhamento Escolar** é um aplicativo desenvolvido para auxiliar na gestão e acompanhamento do progresso acadêmico de alunos, com funcionalidades de monitoramento de desempenho, acompanhamento de eventos e comunicados, acesso ao boletim do aluno, acesso à grade de horários, biblioteca virtual e muito mais.
 
-1. Install dependencies
+---
 
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **React Native**: Framework para desenvolvimento de aplicativos móveis.
+- **Expo**: Plataforma para facilitar o desenvolvimento com React Native.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **React Navigation**: Biblioteca para navegação entre telas.
+- **Styled Components**: Para estilização dos componentes de forma eficiente.
+
+---
+
+
+## 🛠 Como Rodar o Projeto
+
+1. **Clone o repositório**:
+   Faça o download do código para a sua máquina local:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/daniel-almeid/acompanhamento-escolar-2.git
 
-2. Start the app
+2. **Navegue até o diretório do projeto clonado**
 
-   ```bash
-    npx expo start
-   ```
+    ```bash
+    cd acompanhamento-escolar-2
 
-In the output, you'll find options to open the app in a
+3. **Instale as dependências**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+    ```bash
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    npm install
 
-## Get a fresh project
+4. **Inicie o servidor**
 
-When you're ready, run:
+    ```bash
 
-```bash
-npm run reset-project
-```
+    npx expo start ou npm start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+5. **Android Studio**
 
-## Learn more
+    ```bash
 
-To learn more about developing your project with Expo, look at the following resources:
+   Para rodar no Simulador Android, siga os passos acima e:
+   
+   - Abra o Android Studio;
+   - Abra o Simulador;
+   - Dentro do terminal do VSCode, aperte a tecla A "open Android"
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛠 Funcionalidades a serem adicionadas
 
-## Join the community
+   **Cadastro de Alunos:** Registre informações sobre os alunos, como nome, matrícula e curso.
 
-Join our community of developers creating universal apps.
+   **Acompanhamento de Notas:** Acompanhe o desempenho acadêmico dos alunos com gráficos e tabelas.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   **Agenda de Atividades:** Agende e visualize atividades, provas e compromissos importantes.
+
+   **Notificações:** Receba lembretes e atualizações sobre atividades e prazos.
+
+## 💡 Roadmap
+
+- [ ] Adicionar funcionalidade de acompanhamento de presença
+- [ ] Integrar com API de calendário para eventos escolares
+- [ ] Implementar modo offline
+- [ ] Desenvolver app para iOS e Android com builds nativos
+
+## 🚀 Como Contribuir
+
+1. **Faça um Fork** do projeto.
+2. Crie uma branch para sua funcionalidade (ex: `git checkout -b minha-nova-funcionalidade`).
+3. Faça suas alterações e **commit** (ex: `git commit -am 'Adicionando minha nova funcionalidade'`).
+4. **Push** para a sua branch (ex: `git push origin minha-nova-funcionalidade`).
+5. Envie um **Pull Request** para o branch `main` do repositório original.
+6. A revisão será feita e, se tudo estiver correto, a alteração será aceita e **mesclada**.
+
+
+Seu README está ótimo e já cobre os principais pontos, mas para deixá-lo ainda mais completo e informativo, você pode adicionar as seguintes seções:
+
+1. 📋 Requisitos
+Adicionar uma seção sobre os requisitos do sistema pode ser útil para quem está começando o projeto. Exemplo:
+
+markdown
+Copiar código
+## 📋 Requisitos
+
+Para rodar o projeto, você precisará ter instalado:
+
+- **Node.js** (versão 14 ou superior)
+- **npm** ou **yarn** (gerenciador de pacotes)
+- **Expo CLI** (caso não tenha, instale com `npm install -g expo-cli`)
+- **Android Studio** ou **Xcode** (se desejar rodar emuladores)
+
+## 📧 Contato
+
+Se tiver alguma dúvida ou sugestão, me envie um email para: [danielandrade_2001@hotmail.com](mailto:danielandrade_2001@hotmail.com)
+
+## 🎨 Estilo e Contribuições Visuais
+
+- Utilize o design baseado no [Material Design](https://material.io/) para interfaces limpas e funcionais.
+- Certifique-se de seguir o guia de estilo para garantir consistência nas telas e componentes.
+
+## 🌐 Links Úteis
+
+- [Documentação do React Native](https://reactnative.dev/docs/getting-started)
+- [Documentação do Expo](https://docs.expo.dev/)
